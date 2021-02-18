@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './index.css'
 
 import MyForm from './form1';
 
@@ -28,7 +29,9 @@ function App() {
         >
         {/* <button onClick={() => alert("hello")}>alert hello</button> */}
         </div>
-
+        
+        This is written in Langar font
+        
         <div>
           <form>
             <label>
