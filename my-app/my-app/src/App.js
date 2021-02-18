@@ -4,6 +4,8 @@ import './index.css'
 
 import MyForm from './form1';
 
+import Weather from './comps/Weather'
+
 function App() {
   return (
     <div className="App">
@@ -51,6 +53,7 @@ function App() {
         <div className="MyForm">
         </div>
 
+        <Weather />
 
       </header>
 

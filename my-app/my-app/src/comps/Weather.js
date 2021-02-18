@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Suasana from './suasana/Suasana'
 
 const Forecast = () => {
     let [responseObj, setResponseObj] = useState({});
@@ -14,6 +15,9 @@ const Forecast = () => {
                 {JSON.stringify(responseObj)}
             </div>
             <button onClick={getForecast}>Get</button>
+            <Suasana
+                responseObj={responseObj}
+            />
         </div>
    );
 }
