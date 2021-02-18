@@ -26,8 +26,7 @@ function App() {
             backgroundColor: "blue"
           }}
         >
-          Halo
-        <button onClick={() => alert("hello")}>alert hello</button>
+        {/* <button onClick={() => alert("hello")}>alert hello</button> */}
         </div>
 
         <div>
