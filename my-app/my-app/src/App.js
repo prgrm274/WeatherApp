@@ -5,22 +5,12 @@ import './index.css'
 import MyForm from './form1';
 
 import Weather from './comps/Weather'
+import FormStyle1 from './comps/Style1';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React!!!
-        </a> */}
-
-        {/*  */}
         <div
           style={{
             display: "flex",
@@ -32,28 +22,30 @@ function App() {
         {/* <button onClick={() => alert("hello")}>alert hello</button> */}
         </div>
         
-        This is written in Langar font
-        
-        <div>
-          <form>
+        <FormStyle1>
+          <div>
+            <form horizontal>
+              <label>
+                <input type="text" name="name" />
+              </label>
+              {/* <input type="submit" value="Submit" />_ */}
+              <label>
+                <input type="text" name="name" />
+              </label>
             <label>
-              <input type="text" name="name" />
-            </label>
-            <input type="submit" value="Submit" />_
-            <label>
-              <input type="text" name="name" />
-            </label>_
-            <label>
-              <input type="text" name="name" />
-            </label>
-          </form>
-        </div>
+                <input type="text" name="name" />
+              </label>
+            </form>
+          </div>
+        </FormStyle1>
+        <br/>
 
-        <MyForm></MyForm>
-        <div className="MyForm">
-        </div>
+        {/* <MyForm></MyForm> */}
+        {/* <div className="MyForm"/> */}
 
-        <Weather />
+        <FormStyle1>
+          <Weather />
+        </FormStyle1>
 
       </header>
 

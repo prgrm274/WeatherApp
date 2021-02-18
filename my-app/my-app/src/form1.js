@@ -2,14 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import styleddd from 'styled-components';
-
-const FormStyle1 = styleddd.div
-`
-border: 1px solid white;
-background-color: gray;
-padding: 10px 0px 10px 0px;
-`;
+import FormStyle1 from './comps/Style1'
 
 const date = '2021-02-18';
 const dateFormat = 'YYYY-DD-MM';
